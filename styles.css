@@ -444,7 +444,7 @@ border-radius:5px;
     margin:40px 180px;
     
 }
-.buttons {
+.sign-in-button {
     width:100px;
     height:50px;
     background-color: #1e68c8;
@@ -458,7 +458,7 @@ border-radius:5px;
     margin-bottom: 20px;
 }
 
-.buttons:hover {
+.sign-in-button:hover {
     background-color: #1a5d93;
 }
 
