@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="icon.png">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+ 
+    
+    <header>
+        <div class="header">
+        <img src="logo.png" alt="Website Logo" id="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html" >Events</a></li>
+                <li><a href="reviews.html">Review</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+           
+<label for="location" id="location">Location</label>
+<select id="loc" placeholder="Location">
+    <option value="" disabled selected>Select your city</option>
+    <option value="Westford">Westford</option>
+    <option value="Rivertone">Riverton</option>
+    <option value="Oakbridge">Oakbridge</option>
+</select>
+        </nav>
+        </div>
+</header>
+
+<!-- Application Form Section -->
+        <section class="registration-form">
+            <h2>Application Form</h2>
+            <form>
+                <label for="full-name">Full Name:</label>
+
+                <input type="text" id="full-name" name="full-name" required>
+           <!-- textbox for user to enter                        makes filed compulsory -->
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            <!-- accepts on email format -->
+            </br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            <!-- accepts on tel format -->
+                <label for="event">Preferred Event:</label>
+                <select id="event" name="event" required>
+                    <option value="btech">Onsite</option>
+                    <option value="mtech">Online</option>
+                </select>
+                <button type="submit" class="contact-button">Submit Application</button>
+            </form>
+        </section>
+
+
+   <footer id="contact">
+        <p>Contact us at: info@cassiopeia.com</p>
+        <div class="social-links">
+            <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+        </div>
+        <p>&copy; 2024 Cassiopeia</p>
+    </footer>
+</body>
+</html>
