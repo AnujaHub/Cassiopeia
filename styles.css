@@ -481,7 +481,7 @@ border-radius:5px;
     color: #fff;
 }
 
-.review-form input[type="file"] {
+.review-form input[type="file",accept=".jpg, .jpeg, .png"] {
     margin-bottom: 15px;
 }
 
